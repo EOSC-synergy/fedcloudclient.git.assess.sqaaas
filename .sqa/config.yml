@@ -15,62 +15,62 @@ sqa_criteria:
     repos:
       github.com/tdviet/fedcloudclient git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-silver-capuchin.sh
-        container: qc.acc_pokey-eggplant-flounder
+        - /usr/bin/env sh .sqa/script.queasy-white-beagle.sh
+        container: qc.acc_cozy-wisteria-macaw
   QC.Doc:
     repos:
       github.com/tdviet/fedcloudclient find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-azure-vulture.sh
-        container: qc.doc_skinny-alizarin-tang
+        - /usr/bin/env sh .sqa/script.sickly-periwinkle-devil.sh
+        container: qc.doc_skinny-teal-sheepdog
       github.com/tdviet/fedcloudclient git:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-sepia-seahorse.sh
-        container: qc.doc_silly-rust-burmese
+        - /usr/bin/env sh .sqa/script.sunny-magnolia-saola.sh
+        container: qc.doc_geeky-ruby-grouse
       github.com/tdviet/fedcloudclient markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-tangerine-armadillo.sh
-        container: qc.doc_foggy-white-termite
+        - /usr/bin/env sh .sqa/script.flaky-sangria-shrew.sh
+        container: qc.doc_droopy-plum-drever
       github.com/tdviet/fedcloudclient restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-firebrick-argentino.sh
-        container: qc.doc_snippy-pear-leopard
+        - /usr/bin/env sh .sqa/script.flaky-jade-lemur.sh
+        container: qc.doc_pretty-peach-fousek
   QC.Lic:
     repos:
       github.com/tdviet/fedcloudclient licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-lemon-saola.sh
-        container: qc.lic_bumpy-wisteria-gar
+        - /usr/bin/env sh .sqa/script.foggy-smalt-rabbit.sh
+        container: qc.lic_seedy-harlequin-birman
   QC.Sec:
     repos:
       github.com/tdviet/fedcloudclient bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-amaranth-pig.sh
-        container: qc.sec_woolly-viridian-binturong
+        - /usr/bin/env sh .sqa/script.paltry-charcoal-boar.sh
+        container: qc.sec_gimpy-eggplant-tapir
   QC.Sty:
     repos:
       github.com/tdviet/fedcloudclient flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-brown-squirt.sh
-        container: qc.sty_ready-chestnut-cuttlefish
+        - /usr/bin/env sh .sqa/script.flaky-cinnabar-lynx.sh
+        container: qc.sty_pretty-lemon-ladybird
       github.com/tdviet/fedcloudclient hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-auburn-lemur.sh
-        container: qc.sty_ready-purple-bongo
+        - /usr/bin/env sh .sqa/script.cozy-lavender-crocodile.sh
+        container: qc.sty_greasy-amaranth-gecko
       github.com/tdviet/fedcloudclient jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-denim-quetzal.sh
-        container: qc.sty_breezy-asparagus-albatross
+        - /usr/bin/env sh .sqa/script.boozy-persimmon-spitz.sh
+        container: qc.sty_sickly-smalt-octopus
   QC.Uni:
     repos:
       github.com/tdviet/fedcloudclient pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-cinnamon-cow.sh
-        container: qc.uni_gamy-cream-crane
+        - /usr/bin/env sh .sqa/script.skinny-gamboge-antelope.sh
+        container: qc.uni_goopy-firebrick-chimpanzee
   QC.Ver:
     repos:
       github.com/tdviet/fedcloudclient get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-cerise-chipmunk.sh
-        container: qc.ver_shaggy-saffron-dhole
+        - /usr/bin/env sh .sqa/script.snappy-myrtle-tapir.sh
+        container: qc.ver_sloppy-taupe-audemer
 timeout: 5400
